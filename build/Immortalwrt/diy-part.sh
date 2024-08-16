@@ -92,6 +92,7 @@ rm -rf package/feeds/danshui1/cdnspeedtest
 rm -rf package/feeds/packages/v2dat
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+git clone https://github.com/liyuqing1990/luci-app-v2ray-server package/luci-app-v2ray-server
 
 # 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
 cat >"$CLEAR_PATH" <<-EOF
