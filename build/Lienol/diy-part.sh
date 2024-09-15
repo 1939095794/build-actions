@@ -72,6 +72,8 @@ export auto_kernel="true"
 export rootfs_size="2560"
 export kernel_usage="stable"
 
+rm -rf package/feeds/passwall3/shadowsocksr-libev
+rm -rf package/feeds/packages/openssh
 
 
 # 修改插件名字
