@@ -79,6 +79,7 @@ rm -rf package/feeds/packages/v2dat
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 git clone https://github.com/Erope/openwrt_nezha package/nezha
+git clone https://github.com/liyuqing1990/luci-app-v2ray-server package/luci-app-v2ray-server
 # 修改插件名字
 sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
 sed -i 's/"网络存储"/"NAS"/g' `egrep "网络存储" -rl ./`
