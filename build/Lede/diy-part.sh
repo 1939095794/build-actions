@@ -73,6 +73,7 @@ export rootfs_size="2560"
 export kernel_usage="stable"
 
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git luci-app-v2ray
 
 
 
